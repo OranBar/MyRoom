@@ -145,7 +145,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1277109016}
+  m_Mesh: {fileID: 0}
 --- !u!114 &64070568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +485,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191514
+  m_Name: pb_Mesh13986
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -631,7 +631,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191740
+  m_Name: pb_Mesh14196
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -804,7 +804,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 256906133}
+  m_Mesh: {fileID: 0}
 --- !u!114 &111635536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6138,7 +6138,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191190
+  m_Name: pb_Mesh13666
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -6457,7 +6457,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1882652848}
+  m_Mesh: {fileID: 0}
 --- !u!114 &293647404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7677,7 +7677,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1476495638}
+  m_Mesh: {fileID: 0}
 --- !u!114 &328680556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9408,7 +9408,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191664
+  m_Name: pb_Mesh14126
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -9727,7 +9727,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1259519612}
+  m_Mesh: {fileID: 0}
 --- !u!114 &414389328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10067,7 +10067,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191474
+  m_Name: pb_Mesh13944
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -11285,7 +11285,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191374
+  m_Name: pb_Mesh13846
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -11750,7 +11750,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 923220777}
+  m_Mesh: {fileID: 0}
 --- !u!114 &710313144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12740,7 +12740,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191452
+  m_Name: pb_Mesh13922
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -12923,7 +12923,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 610144296}
+  m_Mesh: {fileID: 0}
 --- !u!114 &731584037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18682,7 +18682,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191360
+  m_Name: pb_Mesh13832
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -19001,7 +19001,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 2138339736}
+  m_Mesh: {fileID: 0}
 --- !u!114 &957938909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20612,7 +20612,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 713996793}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1092005738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24429,7 +24429,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 424146965}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1129107789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24799,7 +24799,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191724
+  m_Name: pb_Mesh14182
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -25091,7 +25091,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191300
+  m_Name: pb_Mesh13774
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -25237,7 +25237,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191652
+  m_Name: pb_Mesh14112
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -25383,7 +25383,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191168
+  m_Name: pb_Mesh13650
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -26001,7 +26001,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 82155691}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1324156051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27557,7 +27557,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1793969597}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1390105979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28155,12 +28155,12 @@ GameObject:
   - component: {fileID: 1441178952}
   - component: {fileID: 1441178953}
   m_Layer: 0
-  m_Name: Room
+  m_Name: Room 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1441178951
 Transform:
   m_ObjectHideFlags: 0
@@ -28198,7 +28198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 746dca00009a8da4ca96dd6448964a3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 0
 --- !u!114 &1441178953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28216,7 +28215,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191272
+  m_Name: pb_Mesh13746
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -28389,7 +28388,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 2124432723}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1520173041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29812,7 +29811,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1671059317}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1670442532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30153,7 +30152,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191622
+  m_Name: pb_Mesh14080
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -30472,7 +30471,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1922606923}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1709947731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31548,7 +31547,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1265723975}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1786108326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32538,7 +32537,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191534
+  m_Name: pb_Mesh14006
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -32711,7 +32710,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 357485579}
+  m_Mesh: {fileID: 0}
 --- !u!114 &1811592047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33769,7 +33768,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191248
+  m_Name: pb_Mesh13722
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -34328,7 +34327,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191636
+  m_Name: pb_Mesh14096
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -60525,7 +60524,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191568
+  m_Name: pb_Mesh14028
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -60671,7 +60670,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh191416
+  m_Name: pb_Mesh13888
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -60844,7 +60843,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 109841192}
+  m_Mesh: {fileID: 0}
 --- !u!114 &2145605234
 MonoBehaviour:
   m_ObjectHideFlags: 0
