@@ -76,7 +76,7 @@ namespace OranUnityUtils
         {
             while (frames-- > 0)
             {
-                yield return new WaitForEndOfFrame();
+                yield return null;
             }
         }
 
