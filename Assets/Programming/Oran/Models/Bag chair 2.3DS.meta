@@ -21,7 +21,12 @@ ModelImporter:
     4300000: Pattern2D_
     4300002: Pattern2D0
     4300004: Pattern2D1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: st textile or
+    second: {fileID: 2100000, guid: f66926abb6f80594a9227d592c9b4bbc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -13,7 +13,7 @@ public class MultiMaterializer : MonoBehaviour {
 	}
 
 	[ContextMenu("Materialize")]
-	void Materialize(int fadeDuration) {
+	public void Materialize(int fadeDuration) {
 		
 		foreach(var materializer in allMaterializers){
 			materializer.Materialize(fadeDuration);
@@ -21,7 +21,7 @@ public class MultiMaterializer : MonoBehaviour {
 	}
 
 	[ContextMenu("Dematerialize")]
-	void Dematerialize(int fadeDuration) {
+	public void Dematerialize(int fadeDuration) {
 		
 		foreach(var materializer in allMaterializers){
 			materializer.Dematerialize(fadeDuration);

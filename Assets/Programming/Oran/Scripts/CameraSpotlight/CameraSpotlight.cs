@@ -10,6 +10,8 @@ public class CameraSpotlight : MonoBehaviour {
 	public float startDelay;
 	public float transitionDuration = 2.2f;
 
+	public OBEvent onTransitionFinish;
+
 	[Button]
 	public void MoveMainCameraToSpot() {
         VRForegroundCanvas.Instance.FadeIn(transitionDuration/3);
@@ -20,7 +22,8 @@ public class CameraSpotlight : MonoBehaviour {
 		
 
 		Tween.Position(Camera.main.transform.parent, this.transform.position, transitionDuration, startDelay);
-		Tween.Rotation(Camera.main.transform.parent, this.transform.rotation, transitionDuration, startDelay);
+		Tween.Rotation(Camera.main.transform.parent, this.transform.rotation, transitionDuration, startDelay, completeCallback: ()=>onTransitionFinish.Invoke() );
+		
 		
 
 		//Camera.main.transform.position = this.transform.position;

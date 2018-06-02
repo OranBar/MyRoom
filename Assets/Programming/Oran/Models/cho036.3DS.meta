@@ -11,7 +11,22 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: ARMCHAIR
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK MATTE
+    second: {fileID: 2100000, guid: 0f7af62b944f387429c0f7f3ad3e4efe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLACK PLSTC
+    second: {fileID: 2100000, guid: 21f6cd14bdde12e4292ba266f37b7eb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalChrome
+    second: {fileID: 2100000, guid: 4276055de6c47ba4985e87d561dcf008, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

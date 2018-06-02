@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 14.unity
+    guid: 6a0a9f6147d0b654ca214533dba0711b
+  - enabled: 1
+    path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 2.unity
+    guid: 7ff71dec18dbe6f4dbb7aa5e6cb2a52f
   m_configObjects: {}
