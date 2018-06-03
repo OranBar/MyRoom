@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 33468497569563560}
   - component: {fileID: 23584380264353914}
   - component: {fileID: 64233053100894116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -755,7 +755,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1909962978983422}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 2.542, y: 0.772, z: -0.478}
+  m_LocalPosition: {x: -0.049, y: 0.7400001, z: 10.644899}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4238083453151450}
@@ -2161,7 +2161,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

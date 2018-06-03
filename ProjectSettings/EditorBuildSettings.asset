@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 14.unity
-    guid: 6a0a9f6147d0b654ca214533dba0711b
+    path: Assets/_GameScenes/LoadAllAdditevely/Main.unity
+    guid: 7ea603d0251116b449ef7b16b2e15187
   - enabled: 1
     path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 2.unity
     guid: 7ff71dec18dbe6f4dbb7aa5e6cb2a52f
+  - enabled: 1
+    path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 6.unity
+    guid: 2d6057d47192a524b9b48d7762d8ffd5
+  - enabled: 1
+    path: Assets/_GameScenes/LoadAllAdditevely/Room Setup 14.unity
+    guid: 6a0a9f6147d0b654ca214533dba0711b
   m_configObjects: {}
