@@ -16,7 +16,7 @@ public class CameraSpotlight : MonoBehaviour {
 	public void MoveMainCameraToSpot() {
         VRForegroundCanvas.Instance.FadeIn(transitionDuration/3);
 		
-		this.ExecuteDelayed(
+		Camera.main.gameObject.ExecuteDelayed(
 			()=> VRForegroundCanvas.Instance.FadeOut(transitionDuration/3)
 		,(transitionDuration/3f)*2f);
 		
