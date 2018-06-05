@@ -15,19 +15,24 @@ public class CameraSpotlight : MonoBehaviour {
 	[Button]
 	public void MoveMainCameraToSpot() {
         VRForegroundCanvas.Instance.FadeIn(transitionDuration/3);
+		var prevNearClipPlane_value = Camera.main.nearClipPlane;
+		Camera.main.nearClipPlane = 0.001f;
 		
+		//Fade out black canvas
 		Camera.main.gameObject.ExecuteDelayed(
-			()=> VRForegroundCanvas.Instance.FadeOut(transitionDuration/3)
-		,(transitionDuration/3f)*2f);
-		
+			()=> {
+				VRForegroundCanvas.Instance.FadeOut(transitionDuration/3);
+			}
+		,(transitionDuration/3f)*2.5f);
 
+		//Fix clipping plane. This will probably make the black canvas disappear, so we do it at the end.
+		Camera.main.gameObject.ExecuteDelayed((	)=> {
+				Camera.main.nearClipPlane = prevNearClipPlane_value;
+			}
+		,transitionDuration);
+		
 		Tween.Position(Camera.main.transform.parent, this.transform.position, transitionDuration, startDelay);
 		Tween.Rotation(Camera.main.transform.parent, this.transform.rotation, transitionDuration, startDelay, completeCallback: ()=>onTransitionFinish.Invoke() );
-		
-		
-
-		//Camera.main.transform.position = this.transform.position;
-		//Camera.main.transform.rotation = this.transform.rotation;
 	}
 
 	public RenderTexture GetCurrentShot(int width = 512, int height = 512){

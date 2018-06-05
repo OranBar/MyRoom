@@ -2530,7 +2530,7 @@ MonoBehaviour:
   SizeY: 0.098000005
   PaddingX: 0.004
   PaddingY: 0.004
-  Alignment: 0
+  Alignment: 1
   IconSize: 0
   UseMirrorLayout: 0
   _IsBuilt: 1
@@ -4532,6 +4532,7 @@ GameObject:
   - component: {fileID: 281241909}
   - component: {fileID: 281241908}
   - component: {fileID: 281241907}
+  - component: {fileID: 281241911}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -4587,7 +4588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9843137, b: 0.42745098, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4627,6 +4628,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &281241911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281241905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!43 &286238378
 Mesh:
   m_ObjectHideFlags: 0
@@ -7648,8 +7663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 1
-  SizeX: 0.24
-  SizeY: 0.24
+  SizeX: 0.2
+  SizeY: 0.2
   FlipLayoutDimensions: 0
 --- !u!114 &347381936
 MonoBehaviour:
@@ -8271,11 +8286,11 @@ MonoBehaviour:
   IconOuter: {fileID: 681541822}
   IconInner: {fileID: 1684035974}
   Scale: 0.0002
-  SizeX: 0.198
+  SizeX: 0.148
   SizeY: 0.098000005
   PaddingX: 0.004
   PaddingY: 0.004
-  Alignment: 0
+  Alignment: 1
   IconSize: 0
   UseMirrorLayout: 0
   _IsBuilt: 1
@@ -8758,8 +8773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 1
-  SizeX: 0.24
-  SizeY: 0.24
+  SizeX: 0.2
+  SizeY: 0.2
   FlipLayoutDimensions: 0
 --- !u!114 &489308875
 MonoBehaviour:
@@ -9488,8 +9503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 0
-  SizeX: 0.23799999
-  SizeY: 0.23799999
+  SizeX: 0.198
+  SizeY: 0.198
   FlipLayoutDimensions: 0
 --- !u!114 &612470218
 MonoBehaviour:
@@ -10575,6 +10590,7 @@ GameObject:
   - component: {fileID: 683589283}
   - component: {fileID: 683589282}
   - component: {fileID: 683589281}
+  - component: {fileID: 683589285}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -10644,7 +10660,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 300
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -10670,6 +10686,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &683589285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 683589279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1001 &701864235
 Prefab:
   m_ObjectHideFlags: 0
@@ -11916,7 +11946,7 @@ MonoBehaviour:
   SizeY: 0.108
   PaddingX: 0.004
   PaddingY: 0.004
-  Alignment: 0
+  Alignment: 1
   IconSize: 0
   UseMirrorLayout: 0
   _IsBuilt: 1
@@ -13560,7 +13590,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1150, y: 1150}
+  m_SizeDelta: {x: 950, y: 950}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988036722
 MonoBehaviour:
@@ -13578,11 +13608,11 @@ MonoBehaviour:
   IconOuter: {fileID: 1295679080}
   IconInner: {fileID: 1338231249}
   Scale: 0.0002
-  SizeX: 0.23799999
-  SizeY: 0.23799999
+  SizeX: 0.198
+  SizeY: 0.198
   PaddingX: 0.004
   PaddingY: 0.004
-  Alignment: 0
+  Alignment: 1
   IconSize: 0
   UseMirrorLayout: 0
   _IsBuilt: 1
@@ -14204,8 +14234,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 0
-  SizeX: 0.23799999
-  SizeY: 0.23799999
+  SizeX: 0.198
+  SizeY: 0.198
   FlipLayoutDimensions: 0
 --- !u!114 &1057824932
 MonoBehaviour:
@@ -17202,7 +17232,7 @@ MonoBehaviour:
   SizeY: 0.098000005
   PaddingX: 0.004
   PaddingY: 0.004
-  Alignment: 0
+  Alignment: 1
   IconSize: 0
   UseMirrorLayout: 0
   _IsBuilt: 1
@@ -25848,6 +25878,7 @@ GameObject:
   - component: {fileID: 1549908933}
   - component: {fileID: 1549908932}
   - component: {fileID: 1549908931}
+  - component: {fileID: 1549908935}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -25872,7 +25903,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0}
-  m_SizeDelta: {x: 1150, y: 1150}
+  m_SizeDelta: {x: 950, y: 950}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549908931
 MonoBehaviour:
@@ -25887,8 +25918,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasScale: 0.0002
-  SizeX: 0.22999999
-  SizeY: 0.22999999
+  SizeX: 0.19
+  SizeY: 0.19
   _IsBuilt: 1
 --- !u!114 &1549908932
 MonoBehaviour:
@@ -25917,7 +25948,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 300
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -25943,6 +25974,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1549908935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549908929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1550783867
 GameObject:
   m_ObjectHideFlags: 0
@@ -26877,6 +26922,7 @@ GameObject:
   - component: {fileID: 1626656086}
   - component: {fileID: 1626656085}
   - component: {fileID: 1626656084}
+  - component: {fileID: 1626656088}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -26932,7 +26978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9843137, b: 0.42745098, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -26946,7 +26992,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 300
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -26972,6 +27018,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1626656088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1626656082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!4 &1628348581 stripped
 Transform:
   m_PrefabParentObject: {fileID: 480344, guid: 737b901aecdb514459be83a6eb717f65, type: 2}
@@ -47254,8 +47314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 0
-  SizeX: 0.23799999
-  SizeY: 0.23799999
+  SizeX: 0.198
+  SizeY: 0.198
   FlipLayoutDimensions: 0
 --- !u!114 &1807226196
 MonoBehaviour:
@@ -49262,7 +49322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0005d39a3dbe3894c9731b1935103c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HighlightProgress: 0.9916667
+  HighlightProgress: 0.99
   SelectionProgress: 0
 --- !u!114 &1978638100
 MonoBehaviour:
@@ -49277,8 +49337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlChildShapes: 0
-  SizeX: 0.24
-  SizeY: 0.24
+  SizeX: 0.2
+  SizeY: 0.2
   FlipLayoutDimensions: 0
 --- !u!114 &1978638101
 MonoBehaviour:
@@ -78084,6 +78144,7 @@ GameObject:
   - component: {fileID: 2129126380}
   - component: {fileID: 2129126379}
   - component: {fileID: 2129126378}
+  - component: {fileID: 2129126382}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -78153,7 +78214,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 110
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -78179,6 +78240,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2129126382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129126376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!43 &2139092523
 Mesh:
   m_ObjectHideFlags: 0
