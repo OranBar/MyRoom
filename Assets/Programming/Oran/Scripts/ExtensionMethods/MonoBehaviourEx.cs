@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Assertions;
 using System.Linq;
+using AdvancedCoroutines;
 
 namespace OranUnityUtils
 {
