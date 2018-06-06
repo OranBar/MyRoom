@@ -47,6 +47,7 @@ public class CameraSpotlight : MonoBehaviour {
         Camera.main.gameObject.ExecuteDelayed(() =>
         {
             Camera.main.nearClipPlane = prevNearClipPlane_value;
+            // Camera.main.transform.parent.SetParent(this.transform);
         }
         , animDduration);
     }
