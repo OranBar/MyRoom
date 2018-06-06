@@ -5807,7 +5807,9 @@ Prefab:
     - target: {fileID: 114317109794064840, guid: 29ee00770c4e94843a7dda3e71695b80,
         type: 2}
       propertyPath: m_Text
-      value: Room Snake
+      value: 'Room 2
+
+        Snake'
       objectReference: {fileID: 0}
     - target: {fileID: 114317109794064840, guid: 29ee00770c4e94843a7dda3e71695b80,
         type: 2}
@@ -60227,6 +60229,7 @@ GameObject:
   - component: {fileID: 2004138720}
   - component: {fileID: 2004138719}
   - component: {fileID: 2004138718}
+  - component: {fileID: 2004138725}
   m_Layer: 0
   m_Name: RoomSwitcher (2)
   m_TagString: Untagged
@@ -60338,6 +60341,17 @@ MonoBehaviour:
           m_StringArgument: 'Room Setup 2 '
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2004138725}
+        m_MethodName: ChangeColorToTarget
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: Hover.Core.Items.Types.HoverItemDataSelectable+SelectedEventHandler,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnDeselectedEvent:
@@ -60372,6 +60386,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1babd2bcabac74a3c8ee5dcc8f7e6b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2004138725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004138716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8956566fb02ada47ac554525d851354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColor: {r: 0.41568628, g: 0.23921569, b: 0.5176471, a: 0.78431374}
 --- !u!1001 &2013221733
 Prefab:
   m_ObjectHideFlags: 0
